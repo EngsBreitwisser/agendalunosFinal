@@ -1,0 +1,72 @@
+.add-reminder-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .add-reminder-container .add-reminder-box {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .add-reminder-container .add-reminder-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .add-reminder-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .add-reminder-container label {
+    text-align: left;
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .add-reminder-container select, 
+  .add-reminder-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .add-reminder-container select:focus, 
+  .add-reminder-container input:focus {
+    border-color: #7e57c2;
+  }
+  
+  .add-reminder-container .button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .add-reminder-container button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #184374;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-reminder-container button:hover {
+    background-color: #143153;
+  }
+  
